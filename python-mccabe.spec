@@ -27,3 +27,4 @@ McCabe checker, plugin for flake8
 %files
 %{py_puresitedir}/mccabe.py
 %{py_puresitedir}/mccabe*.egg-info
+%{py_puresitedir}/__pycache__/mccabe*
