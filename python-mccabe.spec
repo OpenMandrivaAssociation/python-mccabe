@@ -45,6 +45,7 @@ code checker.
 %prep
 %setup -q -n %{pypi_name}-%{version}
 
+sed -i -e "/setup_requires=\['pytest-runner'\],/d" setup.py
 cp -a . %{py3dir}
 
 %build
