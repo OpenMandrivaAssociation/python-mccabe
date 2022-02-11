@@ -2,13 +2,13 @@
 %global pypi_name mccabe
 
 Name:           python-mccabe
-Version:        0.6.1
-Release:        12
+Version:	0.7.0
+Release:	1
 Group:          Development/Python
 Summary:        McCabe checker, plugin for flake8
 License:        MIT
 URL:            https://pypi.python.org/pypi/%{pypi_name}
-Source0:        https://pypi.io/packages/source/m/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz
 BuildArch:      noarch
 BuildRequires:  python-devel
 BuildRequires:  python3dist(setuptools)
