@@ -3,7 +3,7 @@
 
 Name:           python-mccabe
 Version:	0.7.0
-Release:	3
+Release:	4
 Group:          Development/Python
 Summary:        McCabe checker, plugin for flake8
 License:        MIT
